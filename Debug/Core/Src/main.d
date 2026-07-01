@@ -35,9 +35,8 @@ Core/Src/main.o: ../Core/Src/main.cpp ../Core/Inc/main.h \
  ../Core/Src/../../HDLC/Types.h ../Core/Src/../../HDLC/CRC_CCITT.h \
  ../Core/Src/../../HDLC/Transmitter.h ../Core/Src/../../HDLC/DataBuffer.h \
  ../Core/Src/../../HDLC/Tasker.h ../Core/Src/../../Core/Inc/Utils.h \
- ../Core/Inc/Hx711.h ../Core/Src/../../CosmosLib/Motor.h \
- ../Core/Src/UIHolders/PolyTestFSM.h \
- ../Core/Src/UIHolders/UIHolder_Stats.h \
+ ../Core/Src/UIHolders/PolyTestFSM.h ../Core/Inc/Motor.h \
+ ../Core/Inc/Hx711.h ../Core/Src/UIHolders/UIHolder_Stats.h \
  ../Core/Src/UIHolders/UIHolder_TestBuffer.h \
  ../Core/Src/UIHolders/UIHolder_ForceRun.h \
  ../Core/Src/UIHolders/UIHolder_GetData.h \
@@ -93,9 +92,9 @@ Core/Src/main.o: ../Core/Src/main.cpp ../Core/Inc/main.h \
 ../Core/Src/../../HDLC/DataBuffer.h:
 ../Core/Src/../../HDLC/Tasker.h:
 ../Core/Src/../../Core/Inc/Utils.h:
-../Core/Inc/Hx711.h:
-../Core/Src/../../CosmosLib/Motor.h:
 ../Core/Src/UIHolders/PolyTestFSM.h:
+../Core/Inc/Motor.h:
+../Core/Inc/Hx711.h:
 ../Core/Src/UIHolders/UIHolder_Stats.h:
 ../Core/Src/UIHolders/UIHolder_TestBuffer.h:
 ../Core/Src/UIHolders/UIHolder_ForceRun.h:
