@@ -1,0 +1,5 @@
+../Core/Src/Motor.cpp:3:1:Motor::Motor(GPIO_TypeDef*, GPIO_TypeDef*, uint16_t, uint16_t, long long int&)	1
+../Core/Src/Motor.cpp:9:6:void Motor::Start(bool)	2
+../Core/Src/Motor.cpp:23:6:void Motor::Stop()	1
+../Core/Src/Motor.cpp:29:6:void Motor::ActiveStop(bool)	2
+../Core/Src/Motor.cpp:49:6:void Motor::ManualMotorStep(uint32_t, bool)	2
